@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Battery Finder Program</h1>
+    </header>
+    <main>
+        <div class="step1">
+            <h1>Step1:Select your brand</h1>
+            <select id="step1">
+                <option value="Cakon">Cakon</option>
+                <option value="Go MN">Go MN</option>
+                <option value="VANY">VANY</option>
+            </select>
+        </div>
+        <div class="step2">
+            <h1>Step2:Select your model</h1>
+            <select id="step2">
+                <option value="ABC 3000M">ABC 3000M</option>
+                <option value="ABC 5000M">ABC 5000M</option>
+                <option value="ABC 7000M">ABC 7000M</option>
+                <option value="ABC 9000M">ABC 9000M</option>
+                <option value="ABC 9900M">ABC 9900M</option>
+            </select>
+        </div>
+        <div class="step3">
+            <h1>Step3:Input accessory power consumption</h1>
+            <input type="number" min="0" max="100" placeholder="0" value="0" id="step3">
+        </div>
+        <div class="step4">
+            <h1>Step4:Choose your battery</h1>
+            <ul id="step4">
+                <li><h3>IOP-E140</h3><p>Estimate 4.0 hours</p></li>
+                <li><h3>IOP-E188</h3><p>Estimate 5.4 hours</p></li>
+                <li><h3>IOP-E78</h3><p>Estimate 2.7 hours</p></li>
+                <li><h3>RYN-C140</h3><p>Estimate 4.1 hours</p></li>
+                <li><h3>RYN-C290</h3><p>Estimate 8.0 hours</p></li>
+                <li><h3>RYN-C65</h3><p>Estimate 2.0 hours</p></li>
+                <li><h3>RYN-C85</h3><p>Estimate 2.6 hours</p></li>
+                <li><h3>WKL-140</h3><p>Estimate 1.8 hours</p></li>
+                <li><h3>Wmacro-140</h3><p>Estimate 1.5 hours</p></li>
+                <li><h3>Wmacro-78</h3><p>Estimate 1.0 hours</p></li>
+            </ul>
+        </div>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>
